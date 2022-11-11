@@ -1,0 +1,104 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('IMG/wallpaper-4k-hinh-nen-4k-hinh-anh-ve-vu-tru-cuc-dep_101311485.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+}
+h1{
+    text-align: center;
+    color: #652bb1;
+    font-size: 30px;
+    opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+	transition: 1s; /*Скорость перехода состояния элемента*/
+	animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+    animation-delay: 1s; /* Задержка перед началом */
+    
+}
+h5{
+    text-align: center;
+    color: #652bb1;
+    font-size: 30px;
+    opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+	transition: 1s; /*Скорость перехода состояния элемента*/
+	animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+    animation-delay: 1s; /* Задержка перед началом */
+    
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    color: #bfad92;
+    border: 1px solid wheat;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 15px;
+    letter-spacing: 0.09em;
+    word-spacing: 0.04em;
+    line-height: 24px;
+    opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+	transition: 1s; /*Скорость перехода состояния элемента*/
+	animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+    animation-delay: 1s; /* Задержка перед началом */
+}
+.sistem{
+    color: #29003D;
+}
+.Tau_Kita{
+    width: 700px;
+    height: 500px;
+	opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+	transition: 1s; /*Скорость перехода состояния элемента*/
+	animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+    animation-delay: 1s; /* Задержка перед началом */
+}
+@keyframes show{
+    0%{
+        opacity:0;
+    }
+    
+    
+    100% {
+        opacity:1;
+    }
+}
+.square{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+a{
+    color: #e7cba1;
+    text-shadow: 1px 1px 1px #000;
+}
+.btn{
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin-left: 100px;
+    background-color: #15031f;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.img{
+    width: 900px;
+    height: 500px;
+}
+.wikitable{
+    font-family: 'Roboto', sans-serif;
+    color: #bfad92;
+    border: 1px solid wheat;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 15px;
+    letter-spacing: 0.09em;
+    word-spacing: 0.04em;
+    line-height: 24px;
+}
+hr{
+    color: #000;
+}
